@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#dddddd;
+    background-color: rgb(145, 210, 229);
     color: rgba(0, 0, 0, 1);  
 }
 
@@ -28,39 +28,36 @@ div#interface{
     text-transform: uppercase;
     position: absolute;
     top: -10px;
-    left: 270px;
+    left: 180px;
    
    }
    
-   header#cabecalho img#icone{
-   
-    position: absolute;
-    left: 750px;
-    top: 80px;
-   }
+  
    
 
    header#cabecalho{
-       border-bottom: 1px #606060 solid;
+       border-bottom: 1px blueviolet solid;
        height: 150px;
-       background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 80px;
+       
    }
 
    header#cabecalho h1{
        font-family:'FonteLogo', sans-serif;
-       font-size:  30pt;
-       color: #606060;
+       font-size:  50pt;
+       color:blue;
        text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
        padding: 0px;
        margin-bottom: 0px;
+       text-align: center;
    }
 
    header#cabecalho h2 {
     font-family: 'Titillium Web', sans-serif;
-       color: #888888;
+       color: blueviolet;
        font-size: 15pt;
        padding: 0px;
        margin-top: 0px ;
+       text-align: center;
    }
 
 
@@ -71,7 +68,7 @@ p{
 }
 
 a {
-    color: #606060;
+    color: black;
     text-decoration: none;
 }
 
@@ -120,7 +117,8 @@ nav#menu {
 
 
 nav#menu li:hover {
-    background-color: #606060;
+    background-color:blueviolet;
+    font:bold;
 }
 
 nav#menu li {
@@ -129,6 +127,7 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
     transition: background-color 1s;
+    font: bold;
 }
 
 nav#menu h1{
@@ -136,8 +135,9 @@ nav#menu h1{
 }
 
 nav#menu  a {
-    color: #000000;
+    color: blueviolet;
     text-decoration:none ;
+    font: bold;
 }
 
 
@@ -151,7 +151,7 @@ section#corpo   {
     display: block;
     width: 450px;
     float: left;
-    border-right: 1px solid #606060;
+    border-right: 1px solid blueviolet;
     padding-right: 24px;
 
 }
@@ -160,7 +160,7 @@ section#corpo   {
 
 article#noticia-principal h2 {
     font-size: 13pt;
-    color: #606060;
+    color:blueviolet;
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
@@ -169,7 +169,7 @@ article#noticia-principal h2 {
 header#cabecalho-artigo h1 {
     font-family: 'FonteLogo', sans-serif;
     font-size: 20pt;
-    color: #606060;
+    color: blueviolet;
     margin-bottom: 0px;
     margin-top: 0px;
 }
@@ -184,14 +184,14 @@ header#cabecalho-artigo h2 {
 
 header#cabecalho-artigo h3 {
     font-size: 12px;    
-    color: #606060;
+    color: blueviolet;;
 }
 .direita {
     text-align: right;
 }
 
 table#tabelaspec {
-    border: 1px solid #606060;
+    border: 1px solid blueviolet;s;
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -216,7 +216,7 @@ table#tabelaspec td.cd {
 }
 
 table#tabelaspec caption {
-    color: #888888;
+    color: blueviolet;
     font-size: 13pt;
     font-weight: bolder;
 }
@@ -241,12 +241,12 @@ aside#lateral {
 aside#lateral h1 {
     font-family: 'FonteLogo',sans-serif;
     font-size: 20px;
-    color: #606060;
+    color:blueviolet;
     margin-top: 0px;
 }
 
 aside#lateral h2 {
-    background-color: #606060;
+    background-color:blueviolet;
     font-size: 13px;
     color: #ffffff;
     padding: 5px;
@@ -261,17 +261,58 @@ footer#rodape p {
     text-align: center;
 }
 
-video#video-mesa{
-    display: block;
-    position: relative;
+figure.cursos img{
     width: 100%;
-    margin-bottom: 10px;
-   margin-left: 8px;
+    height: 100%;
 }
 
-video#video-paraquedas{
-    display: block;
+
+figure.cursos{
     position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.educacao img{
     width: 100%;
-    margin-bottom: 10px;
+    height: 100%;
+}
+
+
+figure.educacao{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+nav#listaC {
+	display: block;
+}
+nav#listaC ul {
+	list-style: none;
+	text-transform: uppercase;
+	position:static;
+	top: 100px;
+	left: 100px;
+}
+
+nav#listaC li {
+	display: inline-block;
+	background-color: blueviolet;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition:background-color 0.5s;
+    -moz-transition:background-color 0.5s;
+    -o-transition:background-color 0.5s;
+    transition:background-color 0.5s;
+}
+
+nav#listaC li:hover {
+	background-color: #606060;
+}
+
+header#cabecalho img#icone {
+	position: absolute;
+	left: 780px;
+	top: 70px;
 }
